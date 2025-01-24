@@ -1,6 +1,6 @@
 name: wf-deploy-pr
 on:
-  pull_request:
+  push:
     branches:
       - develop
 
